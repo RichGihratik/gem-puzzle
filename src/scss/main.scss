@@ -1,0 +1,30 @@
+@import "~bootstrap/scss/bootstrap";
+
+@import "~bootstrap/scss/variables";
+
+#gameboard {
+    max-width: 500px;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    gap: 0.3rem;
+    display: grid;
+    padding: 0;
+}
+
+.score-table__info-cell {
+    min-width: 100px;
+}
+
+.score-table__position-cell {
+    min-width: 50px;
+}
+
+.gametile {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.animated-tile {
+    transition: all 0.5s;
+}
